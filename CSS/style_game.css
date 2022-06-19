@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1{
+    font-size: 6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-size: cover;
+    
+}
+
+header h1 {
+    padding-top: 300px;
+}
+
+header p{
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation-liste{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-liste li{
+    list-style: none;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.navigation-liste a{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation-liste a:hover{
+    color: rgb(255, 73, 173);
+}
+
+#hier{
+    color: rgb(255, 154, 210)
+}
+
+.navigation-abstand{
+    padding: 0 0 0 2rem;
+}
+
+
+
+.flex-container {
+    display: flex;
+    height: 460px;
+    width: 45%;
+    flex-flow: column wrap;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+  
+.flex-container > div {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+input {
+    height: 55px;
+    width: 240px;
+    margin: 10px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d1d1d1;
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.btn {
+    height: 40px;
+    width: 240px;
+    border-radius: 1000px;
+    border: none;
+    color: white;
+    font-size: 22px;
+    background: rgb(209, 163, 191);
+}
+
+input:hover {
+    background-color: #47505f;
+}
+
+input:focus, button:focus {
+    outline: none;
+    width: 265px;
+}
+
+.formular {
+    background: linear-gradient(to right, rgb(209, 163, 191), rgb(184, 184, 184));
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.bild {
+    vertical-align: middle;
+}
+
+.info {
+    color: black;
+    margin-top: 50px;
+    padding: 5px 300px 35px 300px;
+    
+}
+
+.info > p{
+    margin-top: 30px;
+
+}
+
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:0;
+    margin: 20px;
+} 
+
+.footerinhalt{
+    color: white;
+    background-color: rgb(39, 34, 34);
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 0;
+}
+
+.footer-1 {
+    padding: 2.4rem 0 0 4rem;
+}
+
+.footer-2 {
+    padding: 2.4rem 0 0 4rem;
+}
+
+.footerinhalt li{
+    list-style: none;
+}
+
