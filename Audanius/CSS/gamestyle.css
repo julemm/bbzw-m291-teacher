@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 75px;
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+}
+
+header > h2  {
+  color: black;
+  margin-top: 50px;
+}
+
+.content {
+  flex: auto;
+  margin: auto;
+  max-width: 650px;
+}
+
+
+
+.flex-container {
+  display: flex;
+  height: 460px;
+  width: 45%;
+  flex-flow: column wrap;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.flex-container > p {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 30px;
+  width: 400px;
+  margin-left: 38%;
+  margin-right: 15%;
+  margin-top: -35%;
+}
+
+.spielinfo {
+  color: black;
+  text-align: left;
+  margin-top: 100px;
+}
+
+ 
+.formPanel {
+  background-color: white;
+  display: grid;
+  grid-row-gap: 8px;
+  padding: 12px;
+  width: 300px;
+  margin:auto;
+}
+
+.title {
+  text-align: center;
+}
